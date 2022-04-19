@@ -37,10 +37,10 @@ function Header() {
           </div>
 
           {/* Site navigation */}
-          <nav className="flex flex-grow link-header">
+          <nav className="flex flex-grow link-header-container">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
-              <li className="container">
-                <Link to="/signin" className="btn-4">
+              <li className="">
+                <Link to="/signin" className="link-header">
                   Sign in
                 </Link>
               </li>
